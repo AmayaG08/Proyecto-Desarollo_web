@@ -6,3 +6,28 @@
     --blanco: #FFF;
     --negro: #000;
 }
+.nav_principal{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--secundario);
+    } 
+    @media (min-width: 380px){
+        .nav_principal{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+    
+    .nav_principal a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: var(--blanco);
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 0.4rem;
+    } 
+    .nav_principal a:hover{
+        background-color: var(--secundarioClaro);
+        color: var(--negro);
+    }
