@@ -6,6 +6,24 @@
     --blanco: #FFF;
     --negro: #000;
 }
+html{
+    font-size: 62,5%;
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-size: 1rem; 
+    font-family: 'Barlow', sans-serif; 
+}
+main{
+    margin: 2rem;
+}
 .nav_principal{
         display: flex;
         flex-direction: column;
@@ -31,3 +49,34 @@
         background-color: var(--secundarioClaro);
         color: var(--negro);
     }
+
+h1,
+h2,
+h3,
+h4{
+    text-align: center;
+    color: var(--primario);
+}
+img{
+    max-width: 100%;
+}
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background-color: var(--secundarioClaro);
+    padding: 1rem 0.5rem;
+}
+.info-product{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.description-product{
+    grid-column: 1/3;
+}
+.info-product p{
+    margin: 0.2rem;
+}
