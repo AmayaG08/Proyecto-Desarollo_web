@@ -81,7 +81,7 @@ img{
 
 
 
-@media (min-width: 480px){
+@media (min-width: 687px){
     .product-list{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
