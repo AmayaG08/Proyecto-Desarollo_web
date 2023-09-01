@@ -92,3 +92,14 @@ img{
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+/* Footer*/
+.footer{
+    background-color: var(--secundario);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.footer__contactenos{
+    grid-column: 2 / 3;
+}
