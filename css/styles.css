@@ -100,6 +100,20 @@ img{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+.footer__img{
+    padding: 10%;
+    
+}
 .footer__contactenos{
-    grid-column: 2 / 3;
+    padding: 10%;
+}
+.footer__contactenos-center{
+    text-align: center;
+    padding: 10%;
+}
+.footer__texto{
+    text-align: center;
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1%;
 }
