@@ -101,19 +101,31 @@ img{
     gap: 2rem;
 }
 .footer__img{
-    padding: 10%;
-    
+    padding: 10%; 
+    width: 100%;
 }
 .footer__contactenos{
     padding: 10%;
+    font-size: 1.4rem;
 }
 .footer__contactenos-center{
     text-align: center;
     padding: 10%;
+}
+.footer__contactenos-1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
 }
 .footer__texto{
     text-align: center;
     background-color: var(--secundario);
     color: var(--blanco);
     padding: 1%;
+    font-size: 1.2rem;
+}
+@media (max-width: 687px) {
+    .footer__contactenos{
+        font-size: 1rem;
+    }
 }
