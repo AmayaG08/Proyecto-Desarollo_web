@@ -65,6 +65,7 @@ option{
     background: transparent;
     color: var(--blanco);
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .product-list {
@@ -82,8 +83,7 @@ option{
 .sale{
     font-weight: normal;
     text-decoration: line-through;
-    text-decoration-color: red ;
-    
+    text-decoration-color: red ; 
 }
 .description-product {
   grid-column: 1/3;
@@ -97,6 +97,11 @@ option{
     height: 300px;
 }
 
+.banner p{
+    margin: 1rem 0 2rem 0;
+}
+
+
 @media (min-width: 687px) {
   .product-list {
     display: grid;
@@ -106,6 +111,11 @@ option{
     font-size: 1.3rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .container-somos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
   }
 }
 @media (min-width: 380px) {
