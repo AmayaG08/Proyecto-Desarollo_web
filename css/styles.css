@@ -40,6 +40,9 @@ option{
     color: var(--blanco);
     background-color: #5c8374;
 }
+li{
+    margin: 1rem;
+}
 .nav_principal {
   display: flex;
   flex-direction: column;
@@ -102,6 +105,7 @@ option{
 }
 
 
+
 @media (min-width: 687px) {
   .product-list {
     display: grid;
@@ -116,6 +120,13 @@ option{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
+  }
+  .container-pagos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+    align-items: center;
   }
 }
 @media (min-width: 380px) {
