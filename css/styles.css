@@ -135,8 +135,6 @@ li{
     justify-content: space-around;
   }
 }
-<<<<<<< HEAD
-=======
 .description-product{
     grid-column: 1/3;
 }
@@ -195,4 +193,3 @@ li{
         font-size: 1rem;
     }
 }
->>>>>>> 68402da287e53feb83c3a736790e7bb47a631fbb
