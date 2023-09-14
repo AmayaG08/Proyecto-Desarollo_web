@@ -156,7 +156,50 @@ li{
         grid-template-columns: repeat(2,1fr);
     }
 }
-
+/* Slider */
+.slider-marcas {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background-color: var(--secundarioClaro);
+  }
+  
+  .slider-marcas .slide-track {
+    margin-top: 5rem;
+    display: flex;
+    gap: 3rem;
+    animation: scroll 30s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
+    width: calc(200px * 12);
+    margin-bottom: 5rem;
+  }
+  .slider-marcas .slide .img-marca {
+    width: 100%;
+    height: 100%;
+  }
+  .slider-marcas .slide {
+    width: 20rem;
+  }
+  .slide img{
+    border-radius: 5%;
+  }
+  .slider-marcas hr {
+    position: absolute;
+    width: 125rem;
+    margin-left: 33.5rem;
+    margin-top: 2rem;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-20rem * 6));
+      -webkit-transform: translateX(calc(-7rem * 6));
+    }
+  }
 /* Footer*/
 .footer{
     background-color: var(--secundario);
@@ -182,6 +225,9 @@ li{
     padding: 10%;
     font-size: 1.6rem;
 }
+.footer__img{
+    padding: 1.5rem;
+}
 .footer__contactenos-center{
     padding: 10%;
 }
@@ -192,7 +238,7 @@ li{
     gap: 1rem;
     padding: 0.2rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 740px) {
     .pie_pagina{
         display: flex;
         flex-direction: column;
