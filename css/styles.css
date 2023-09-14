@@ -104,6 +104,11 @@ li{
     margin: 1rem 0 2rem 0;
 }
 
+.img-product{
+  display: flex;
+  justify-content: center;
+}
+
 
 
 @media (min-width: 687px) {
