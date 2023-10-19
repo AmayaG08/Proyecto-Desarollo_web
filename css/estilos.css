@@ -8,6 +8,14 @@
     --color-footer: #151515;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
 *,::after, ::before{
     box-sizing: border-box;
 }
