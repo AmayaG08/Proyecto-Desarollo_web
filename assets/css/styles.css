@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-  --primario: #FFA33C;
-  --primario-rgb: 255, 163, 60;
+  --primario: #FF5B22;
+  --primario-rgb: 255, 91, 34;
   --bs-secondary-rgb: 108, 117, 125;
   --verde-rgb: 25, 135, 84;
   --hover-naranja-rgb: 255, 87, 51;
@@ -395,14 +395,6 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
