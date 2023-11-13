@@ -4839,7 +4839,7 @@ textarea.form-control-lg {
   font-size: 0.75em;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color: #000;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -7766,8 +7766,8 @@ textarea.form-control-lg {
 }
 
 .bg-success {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--verde-rgb), var(--bs-bg-opacity)) !important;
+  /* --bs-bg-opacity: 1; */
+  background-color: #fff !important;
 }
 
 .bg-info {

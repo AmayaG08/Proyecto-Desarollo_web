@@ -4,7 +4,7 @@ font-weight: bold; /* Fuente en negrita o bold */
 color: #ffffff; /* Color del texto */
 border-radius: 5px; /* Borde del boton */
 letter-spacing: 2px; /* Espacio entre letras */
-background-color: #6fe91e; /* Color de fondo */
+background: linear-gradient(265deg, rgba(72,195,34,1) 0%, rgba(207,253,45,1) 100%); /* Color de fondo */
 padding: 18px 30px; /* Relleno del boton */
 position: fixed;
 bottom: 40px;
@@ -15,7 +15,8 @@ z-index: 99;
 text-decoration: none;
 }
 .btn-flotante:hover {
-background-color: #f70743;
+color: #000000;
+background: linear-gradient(90deg, rgba(72,195,34,1) 0%, rgba(207,253,45,1) 100%);
 transform: translateY(-7px);
 }
 
